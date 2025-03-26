@@ -1,0 +1,29 @@
+# Configuration for model training and paths
+
+input_image_data:
+  path: "../SpatialData"   # Path to your training image data
+
+input_pulse_data:
+  path: "../TemporalData"   # Path to your input pulse data
+
+input_image_test_data:
+  path: "../SpatialTestData"   # Path to your training image data
+
+input_pulse_test_data:
+  path: "../TemporalTestData"   # Path to your input pulse data
+
+base_model_path:
+  path: "model_ViT-3D_l1_e_pls_best.pth"   # Path to your input pulse data
+
+output:
+  results_path: "Results"   # Path to save results and models
+
+training_parameters:
+  epochs: 300         # Number of epochs for training
+  batch_size: 4      # Batch size for training
+  learning_rate: 0.0001 # Learning Rate
+  seed: 1 # Set the seed
+  num_workers: 1 # Dataloader workers
+
+model:
+  name: "ViT-3D-UNet"   # Name of the model

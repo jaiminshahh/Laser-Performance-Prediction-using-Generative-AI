@@ -1,7 +1,5 @@
 # Laser-Performance-Prediction-using-Generative-AI
 
-Authors: Anjaly George, Jaimin Shah, Karthik Dinesh, and Rishabh Sharma
-
 This repository contains models and scripts used to predict laser performance characteristics using generative AI techniques. The architecture comprises multiple components, each handling different stages of the prediction pipeline.
 
 ---
